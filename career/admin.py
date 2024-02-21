@@ -6,5 +6,5 @@ from .models import Career
 @admin.register(Career)
 class CareerAdmin(admin.ModelAdmin):
     list_display = ['short_name', 'level']
-    ordering =  ['short_name', 'level']
+    ordering =  ['short_name', 'level'] 
 

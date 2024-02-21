@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # Local_apps
     'library.apps.LibraryConfig',
     'career.apps.CareerConfig',
+    'exam.apps.ExamConfig',
     # Django Apps
     'django.contrib.admin',
     'django.contrib.auth',
